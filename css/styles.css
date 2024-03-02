@@ -5,8 +5,12 @@
   font-family: "Work Sans", sans-serif;
 }
 
+#primary_color{
+    color: #FF5400;
+}
+
 .title img{
-    width: 10%;
+    width: 5%;
 }
 .title{
     display: flex;
@@ -30,10 +34,38 @@ nav{
 .menu > ul > li:hover{
     background-color: #FF5400;
     border-width: 70px;
-    
-    
 }
 
-#primary_color{
-    color: #FF5400;
+.banner{
+    margin-top: 10px;
+    height: 500px;
+    background-image: url('../images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+    width: auto;
+    background-position-x: center;
 }
+.banner > h1{
+    font-size: 40px;
+}
+.banner > p{
+    font-size: 16px;
+}
+
+.banner-form > input:focus{
+    background-color: #FF5400;
+    color: #ffffff;
+}
+.banner-form > button:focus{
+    background-color: #FF5400;
+    color: #ffffff;
+}
+
+.banner-form > input, button{
+    height: 30px;
+    border-radius: 40px;
+    text-align: center;
+}
+
