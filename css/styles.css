@@ -1,3 +1,18 @@
+/* fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap')
+
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+}
+
+.title img{
+    width: 10%;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -11,4 +26,14 @@ nav{
 
 .menu > ul > li{
     margin-right: 44px;
+}
+.menu > ul > li:hover{
+    background-color: #FF5400;
+    border-width: 70px;
+    
+    
+}
+
+#primary_color{
+    color: #FF5400;
 }
