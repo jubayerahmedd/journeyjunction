@@ -97,9 +97,51 @@ button{
 .second-column{
     margin-top: 10px;
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
 }
+
+.choose{
+    margin-top: 50px;
+}
+.box{
+    border-radius: 40px;
+}
+.choose-top{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 200px;
+    justify-content: center;
+
+}
+.hotels, .service{
+    background-color: #FBB563;
+    opacity: 90%;
+    text-align: center;
+    padding-top: 5%;
+    width: 90%;
+}
+
+.card-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricing{
+    background-color: #FBB563;
+    opacity: 90%;
+    text-align: center;
+    width: 50%;
+    margin-top: 30px;
+    height: 200px;
+    padding-top: 5%;
+
+}
+
 
 
 
